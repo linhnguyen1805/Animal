@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662EE3C317DA3D4F005750D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662EE3C217DA3D4F005750D1 /* UIKit.framework */; };
+		662EE3C517DA3D4F005750D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662EE3C417DA3D4F005750D1 /* Foundation.framework */; };
+		662EE3C717DA3D4F005750D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662EE3C617DA3D4F005750D1 /* CoreGraphics.framework */; };
+		662EE3CD17DA3D4F005750D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 662EE3CB17DA3D4F005750D1 /* InfoPlist.strings */; };
+		662EE3CF17DA3D4F005750D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3CE17DA3D4F005750D1 /* main.m */; };
+		662EE3D317DA3D4F005750D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3D217DA3D4F005750D1 /* AppDelegate.m */; };
+		662EE3D517DA3D4F005750D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 662EE3D417DA3D4F005750D1 /* Default.png */; };
+		662EE3D717DA3D4F005750D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662EE3D617DA3D4F005750D1 /* Default@2x.png */; };
+		662EE3D917DA3D4F005750D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662EE3D817DA3D4F005750D1 /* Default-568h@2x.png */; };
+		662EE3E317DA3DE1005750D1 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3E217DA3DE1005750D1 /* Animal.m */; };
+		662EE3E917DA3EAA005750D1 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3E817DA3EAA005750D1 /* Bird.m */; };
+		662EE3ED17DA42F0005750D1 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3EC17DA42F0005750D1 /* Dog.m */; };
+		662EE3F017DA4317005750D1 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3EF17DA4317005750D1 /* Pig.m */; };
+		662EE3F317DA4328005750D1 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3F217DA4328005750D1 /* Cat.m */; };
+		662EE3F617DA4342005750D1 /* Chicken.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3F517DA4342005750D1 /* Chicken.m */; };
+		662EE3FD17DA474D005750D1 /* ZooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE3FB17DA474C005750D1 /* ZooViewController.m */; };
+		662EE3FE17DA474D005750D1 /* ZooViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662EE3FC17DA474C005750D1 /* ZooViewController.xib */; };
+		662EE40217DA47AF005750D1 /* ListAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662EE40017DA47AE005750D1 /* ListAnimalViewController.m */; };
+		662EE40317DA47AF005750D1 /* ListAnimalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662EE40117DA47AF005750D1 /* ListAnimalViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		662EE3BF17DA3D4F005750D1 /* Animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662EE3C217DA3D4F005750D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		662EE3C417DA3D4F005750D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		662EE3C617DA3D4F005750D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		662EE3CA17DA3D4F005750D1 /* Animal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal-Info.plist"; sourceTree = "<group>"; };
+		662EE3CC17DA3D4F005750D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		662EE3CE17DA3D4F005750D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		662EE3D017DA3D4F005750D1 /* Animal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal-Prefix.pch"; sourceTree = "<group>"; };
+		662EE3D117DA3D4F005750D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		662EE3D217DA3D4F005750D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		662EE3D417DA3D4F005750D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		662EE3D617DA3D4F005750D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		662EE3D817DA3D4F005750D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		662EE3E117DA3DE1005750D1 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		662EE3E217DA3DE1005750D1 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		662EE3E717DA3EAA005750D1 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		662EE3E817DA3EAA005750D1 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		662EE3EB17DA42F0005750D1 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		662EE3EC17DA42F0005750D1 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		662EE3EE17DA4317005750D1 /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		662EE3EF17DA4317005750D1 /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+		662EE3F117DA4328005750D1 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		662EE3F217DA4328005750D1 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		662EE3F417DA4342005750D1 /* Chicken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chicken.h; sourceTree = "<group>"; };
+		662EE3F517DA4342005750D1 /* Chicken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chicken.m; sourceTree = "<group>"; };
+		662EE3F717DA4418005750D1 /* MoveNClimb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveNClimb.h; sourceTree = "<group>"; };
+		662EE3F817DA4418005750D1 /* MoveNSwim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveNSwim.h; sourceTree = "<group>"; };
+		662EE3FA17DA474B005750D1 /* ZooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooViewController.h; sourceTree = "<group>"; };
+		662EE3FB17DA474C005750D1 /* ZooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooViewController.m; sourceTree = "<group>"; };
+		662EE3FC17DA474C005750D1 /* ZooViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZooViewController.xib; sourceTree = "<group>"; };
+		662EE3FF17DA47AE005750D1 /* ListAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAnimalViewController.h; sourceTree = "<group>"; };
+		662EE40017DA47AE005750D1 /* ListAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAnimalViewController.m; sourceTree = "<group>"; };
+		662EE40117DA47AF005750D1 /* ListAnimalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListAnimalViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662EE3BC17DA3D4F005750D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EE3C317DA3D4F005750D1 /* UIKit.framework in Frameworks */,
+				662EE3C517DA3D4F005750D1 /* Foundation.framework in Frameworks */,
+				662EE3C717DA3D4F005750D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662EE3B617DA3D4F005750D1 = {
+			isa = PBXGroup;
+			children = (
+				662EE3C817DA3D4F005750D1 /* Animal */,
+				662EE3C117DA3D4F005750D1 /* Frameworks */,
+				662EE3C017DA3D4F005750D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662EE3C017DA3D4F005750D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3BF17DA3D4F005750D1 /* Animal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662EE3C117DA3D4F005750D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3C217DA3D4F005750D1 /* UIKit.framework */,
+				662EE3C417DA3D4F005750D1 /* Foundation.framework */,
+				662EE3C617DA3D4F005750D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		662EE3C817DA3D4F005750D1 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3DF17DA3DA4005750D1 /* Class */,
+				662EE3D117DA3D4F005750D1 /* AppDelegate.h */,
+				662EE3D217DA3D4F005750D1 /* AppDelegate.m */,
+				662EE3C917DA3D4F005750D1 /* Supporting Files */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		662EE3C917DA3D4F005750D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3CA17DA3D4F005750D1 /* Animal-Info.plist */,
+				662EE3CB17DA3D4F005750D1 /* InfoPlist.strings */,
+				662EE3CE17DA3D4F005750D1 /* main.m */,
+				662EE3D017DA3D4F005750D1 /* Animal-Prefix.pch */,
+				662EE3D417DA3D4F005750D1 /* Default.png */,
+				662EE3D617DA3D4F005750D1 /* Default@2x.png */,
+				662EE3D817DA3D4F005750D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		662EE3DF17DA3DA4005750D1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3F917DA4420005750D1 /* Protocol */,
+				662EE3E017DA3DB1005750D1 /* Model */,
+				662EE3FA17DA474B005750D1 /* ZooViewController.h */,
+				662EE3FB17DA474C005750D1 /* ZooViewController.m */,
+				662EE3FC17DA474C005750D1 /* ZooViewController.xib */,
+				662EE3FF17DA47AE005750D1 /* ListAnimalViewController.h */,
+				662EE40017DA47AE005750D1 /* ListAnimalViewController.m */,
+				662EE40117DA47AF005750D1 /* ListAnimalViewController.xib */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		662EE3E017DA3DB1005750D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3E117DA3DE1005750D1 /* Animal.h */,
+				662EE3E217DA3DE1005750D1 /* Animal.m */,
+				662EE3E717DA3EAA005750D1 /* Bird.h */,
+				662EE3E817DA3EAA005750D1 /* Bird.m */,
+				662EE3EB17DA42F0005750D1 /* Dog.h */,
+				662EE3EC17DA42F0005750D1 /* Dog.m */,
+				662EE3EE17DA4317005750D1 /* Pig.h */,
+				662EE3EF17DA4317005750D1 /* Pig.m */,
+				662EE3F117DA4328005750D1 /* Cat.h */,
+				662EE3F217DA4328005750D1 /* Cat.m */,
+				662EE3F417DA4342005750D1 /* Chicken.h */,
+				662EE3F517DA4342005750D1 /* Chicken.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		662EE3F917DA4420005750D1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				662EE3F717DA4418005750D1 /* MoveNClimb.h */,
+				662EE3F817DA4418005750D1 /* MoveNSwim.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662EE3BE17DA3D4F005750D1 /* Animal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662EE3DC17DA3D4F005750D1 /* Build configuration list for PBXNativeTarget "Animal" */;
+			buildPhases = (
+				662EE3BB17DA3D4F005750D1 /* Sources */,
+				662EE3BC17DA3D4F005750D1 /* Frameworks */,
+				662EE3BD17DA3D4F005750D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animal;
+			productName = Animal;
+			productReference = 662EE3BF17DA3D4F005750D1 /* Animal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662EE3B717DA3D4F005750D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = viettel;
+			};
+			buildConfigurationList = 662EE3BA17DA3D4F005750D1 /* Build configuration list for PBXProject "Animal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 662EE3B617DA3D4F005750D1;
+			productRefGroup = 662EE3C017DA3D4F005750D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662EE3BE17DA3D4F005750D1 /* Animal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662EE3BD17DA3D4F005750D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EE3CD17DA3D4F005750D1 /* InfoPlist.strings in Resources */,
+				662EE3D517DA3D4F005750D1 /* Default.png in Resources */,
+				662EE3D717DA3D4F005750D1 /* Default@2x.png in Resources */,
+				662EE3D917DA3D4F005750D1 /* Default-568h@2x.png in Resources */,
+				662EE3FE17DA474D005750D1 /* ZooViewController.xib in Resources */,
+				662EE40317DA47AF005750D1 /* ListAnimalViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662EE3BB17DA3D4F005750D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EE3CF17DA3D4F005750D1 /* main.m in Sources */,
+				662EE3D317DA3D4F005750D1 /* AppDelegate.m in Sources */,
+				662EE3E317DA3DE1005750D1 /* Animal.m in Sources */,
+				662EE3E917DA3EAA005750D1 /* Bird.m in Sources */,
+				662EE3ED17DA42F0005750D1 /* Dog.m in Sources */,
+				662EE3F017DA4317005750D1 /* Pig.m in Sources */,
+				662EE3F317DA4328005750D1 /* Cat.m in Sources */,
+				662EE3F617DA4342005750D1 /* Chicken.m in Sources */,
+				662EE3FD17DA474D005750D1 /* ZooViewController.m in Sources */,
+				662EE40217DA47AF005750D1 /* ListAnimalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		662EE3CB17DA3D4F005750D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662EE3CC17DA3D4F005750D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662EE3DA17DA3D4F005750D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		662EE3DB17DA3D4F005750D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662EE3DD17DA3D4F005750D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal/Animal-Prefix.pch";
+				INFOPLIST_FILE = "Animal/Animal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		662EE3DE17DA3D4F005750D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal/Animal-Prefix.pch";
+				INFOPLIST_FILE = "Animal/Animal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662EE3BA17DA3D4F005750D1 /* Build configuration list for PBXProject "Animal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662EE3DA17DA3D4F005750D1 /* Debug */,
+				662EE3DB17DA3D4F005750D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662EE3DC17DA3D4F005750D1 /* Build configuration list for PBXNativeTarget "Animal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662EE3DD17DA3D4F005750D1 /* Debug */,
+				662EE3DE17DA3D4F005750D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662EE3B717DA3D4F005750D1 /* Project object */;
+}
